@@ -10,6 +10,7 @@
     
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+<link rel="stylesheet" href="./assets/style.css" />
 <title>Prework Study Guide</title>
   
 </head>
@@ -21,13 +22,14 @@
       
 <h1>Prework Study Guide</h1>
 
-<img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+<img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." style="height:50px;   width:50px;  display:block; margin-left:auto;  margin-right:auto;" />
 </header>
 
 
 <main>   
 <section class="card" id="html-section">
   <h2>HTML</h2>
+<hr>
      <ul>
      <li>The head element contains information about the webpage.</li>
      <li>The body element represents the visible content shown to the user.</li>
@@ -36,15 +38,21 @@
 
    <section class="card" id="css-section">
  <h2>CSS</h2>
-     <ul>
-     <li>The head element contains information about the webpage.</li>
-     <li>The body element represents the visible content shown to the user.</li>
-     </ul>
+<hr>    
+ <ul>
+     <li>Inline CSS: Using style="color:red;" attribute in an element. Good for one-offs.</li>
+     <li>Internal CSS: having a &lt;style&gt; element in the &lt;head&gt; of a html page. Limited to just one HTML page, but applies to all elements of that type/.class/id. e.g. &lt;style&gt; h1 {color: red;} &lt;/style&gt;</li>
+     <li>External CSS: Using a separate css text file that can be used by multiple HTML pages. It works the same as internal CSS. insert &lt;link rel="stylesheet" href="./assets/style.css" /&gt; into the &lt;head&gt;.</li>
+     <li>NOTE: CSS will override basic parameters like width/height.</li>
+     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Additional CSS options</a></li>
+</ul>
+<img src="./assets/310-box-model.png" style="height:360px;  width:640px;" title="310-box-model" alt="Anatomy of a HTML element." />
    </section>
 
    <section class="card" id="git-section">
  <h2>Git</h2>
-     <ul>
+<hr>      
+  <ul>
    <li>git status: checks what branch we are currently on</li>
     <li>git checkout branch-name: switches to this branch in the console</li>
     <li>git checkout -b branch-name: creates a new branch and switches to it</li>
@@ -57,6 +65,7 @@
 
    <section class="card" id="javascript-section">
  <h2>JS</h2>
+<hr>      
      <ul>
      <li>The head element contains information about the webpage.</li>
      <li>The body element represents the visible content shown to the user.</li>
